@@ -1,6 +1,6 @@
 $( document ).ready(function($) {
 
-    var subtitleElement = $("#subtitle");
+    var subtitleElement = $("#cover-lead");
     var subtitleString = subtitleElement.html();
     var typingIndex = 0;
     var typingForward = true;
@@ -20,6 +20,6 @@ $( document ).ready(function($) {
         }
         
         
-    }, 100);
+    }, 50);
 
 });
